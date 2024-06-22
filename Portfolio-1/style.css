@@ -1,0 +1,136 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Open sans",sans-serif;
+}
+span{
+    color:orange;
+    font-weight: 700;
+    font-size: 30px;
+}
+.navbar{
+    background-color: black;
+    color: white;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    gap:1150px;
+    align-items: center;
+}
+ul{
+    display: flex;
+    gap:25px;
+    list-style:none;
+    padding: 20px;
+    position: relative;
+    right: 70px;
+}
+.hero-img{
+    background-image: url("mahadi.png");
+    height: 400px;
+    width: 350px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: 10px 10px orange;
+}
+.hero{
+    height: 500px;
+    width: 70%;
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    margin: 0 auto;
+    gap:150px;
+    position: relative;
+    left: 20px;
+    top:100px;
+    align-items: center;
+}
+.icons, i{
+    margin:10px 0;
+    margin-right: 10px;
+}
+.skills{
+    height: 700px;
+    width: 60%;
+    background-color: rgb(236, 236, 231);
+    margin: 0 auto;
+    margin-top: 200px;
+    box-shadow: 0 0 20px rgb(104, 104, 102);
+}
+.skill{
+    height: 250px;
+    width: 250px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    gap: 20px;
+    padding: 40px;
+} 
+.wrap{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: center;
+  gap:20px;
+}
+h2{
+    margin-left: 55px;
+    position: relative;
+    top:70px;
+    font-size: 35px;
+}
+.projects{
+    height: 500px;
+    width: 300px;
+    
+}
+.projects{
+    position: relative;
+    top: 100px;
+    left:300px;
+}
+h4{
+    position: relative;
+    left: 300px;
+    top:70px;
+    font-size: 30px;
+}
+.form{
+    height: 300px;
+    width: 700px;
+    position: relative;
+    left: 300px;
+}
+.form{
+   margin-bottom: 170px;
+}
+input{
+    width: 400px;
+    height: 40px;
+}
+.from-btn{
+    height: 30px;
+    width: 100px;
+    transition: .3s ease-in-out;
+}
+.from-btn:hover{
+    transform: scale(1.04);
+    transition: .3s ease-in-out;
+
+}
+footer{
+    height: 70px;
+    width: 100%;
+    color:white;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.logo{
+    font-size: 20px;
+    padding: 15px;
+}
